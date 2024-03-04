@@ -1,0 +1,50 @@
+body{
+    background-color: mediumpurple;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+   
+}
+
+h1{
+    font-style: oblique;
+}
+
+label{
+    font-size: 18px;
+    font: bold;
+
+}
+
+#name, #email, #number, #dropdown{
+    border-radius: 10px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    width: 200px;
+    height: 30px;
+}
+
+p{
+    font-size: 18px;
+    font: bold;
+}
+
+textarea{
+    width: 400px;
+    height:200px;
+    border-radius: 10px;
+    border: 10px;
+}
+
+#motivation, #description{
+    font-style: italic;
+}
+
+#submit{
+    border-radius: 10px;
+    background-color: blueviolet;
+    width: 80px;
+    height: 35px
+}
+
+p, textarea, button, label, input{
+    text-align: left;
+}
