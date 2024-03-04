@@ -11,13 +11,13 @@
     
     <form id="survey-form">
         <label id="name-label">Name</label> <br>
-        <input id="name" type="text" required/> <br>
+        <input id="name" type="text" placeholder="Siphokazi" required/> <br>
         <label id="surname-label">Surname</label> <br>
-        <input id="name" type="text" required/> <br>
+        <input id="name" type="text" placeholder="Mdze" required/> <br>
         <label id="email-label">Email📧</label> <br>
-        <input id="email" type="email" required/> <br>
+        <input id="email" type="email" placeholder="veronicamdze@gmail.com" required/> <br>
         <label id="number-label">Week number</label> <br>
-        <input id="number" type="number" min="1" max="20"/> <br>
+        <input id="number" type="number" min="1" max="52" placeholder="1"/> <br>
         <label>Which faculty are you in?</label> <br>
         <select id="dropdown"> 
             <option disabled selected value>Select an option</option>
@@ -30,7 +30,7 @@
             
         </select> <br>
         
-        <label>How many hours did you study this week?</label> <br>
+        <p>How many hours did you study this week?</p>
         <label> 
             <input name="options" type="radio" value="4-8hours"/>4-8 hours
         </label> <br>
@@ -43,8 +43,33 @@
         
         <p>What are some of the places you studied in this week?</p>
         <label>
-            <input name="options" type="checkbox" /> Library
-        </label>
+            <input name="options" type="checkbox" value="library" /> Library
+        </label> <br>
+        <label>
+            <input name="options" type="checkbox" value="bedroom" /> Bedroom
+        </label> <br>
+        <label>
+            <input name="options" type="checkbox" value="res study room" /> Res study room
+        </label> <br>
+        <label>
+            <input name="options" type="checkbox" value="IT center" /> IT Center
+        </label> <br>
+        <label>
+            <input name="options" type="checkbox" value="outside" /> Outside
+        </label> <br>
+        
+        <p>What do you think you could have done different this week?</p>
+        <textarea placeholder="Enter your answer here..."></textarea> <br>
+
+        <p>What goals did you achieve this week?</p>
+        <textarea placeholder="Enter your answer here..."></textarea> <br>
+
+        <p id="motivation">“Success is the sum of small efforts, repeated day in and day out.”
+
+            ―  Robert Collier, self-help author</p>
+
+        <button id="submit" type="submit">Submit</button>
+
 
     </form>
 
